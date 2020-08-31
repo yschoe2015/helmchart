@@ -1,3 +1,15 @@
 apiVersion: v1
-entries: {}
-generated: "2020-08-31T16:07:21.4334269+09:00"
+entries:
+  sep-core-metacol:
+  - apiVersion: v1
+    created: "2020-08-31T16:25:39.6225536+09:00"
+    description: SEP Data Service MetadataCollector
+    digest: 8ec96c67ab0dba7d6af40ea425e9b12033e239acf0c56b9da1ca81ad25a320b8
+    maintainers:
+    - email: wyoung12.lee@samsung.com
+      name: Won Young Lee
+    name: sep-core-metacol
+    urls:
+    - sep-core-metacol.tgz
+    version: 0.0.1
+generated: "2020-08-31T16:25:39.6225536+09:00"
