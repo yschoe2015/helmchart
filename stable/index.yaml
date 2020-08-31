@@ -1,15 +1,24 @@
 apiVersion: v1
 entries:
-  sep-core-metacol:
+  ingress-nginx:
   - apiVersion: v1
-    created: "2020-08-31T16:25:39.6225536+09:00"
-    description: SEP Data Service MetadataCollector
-    digest: 8ec96c67ab0dba7d6af40ea425e9b12033e239acf0c56b9da1ca81ad25a320b8
+    appVersion: 0.34.1
+    created: "2020-08-31T16:39:53.3656365+09:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 67304befe7756c90cb3b3029bbd85581b1fbefa6d9f7bd77cb681269929e9e22
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
     maintainers:
-    - email: wyoung12.lee@samsung.com
-      name: Won Young Lee
-    name: sep-core-metacol
+    - name: ChiefAlexander
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
     urls:
-    - sep-core-metacol.tgz
-    version: 0.0.1
-generated: "2020-08-31T16:25:39.6225536+09:00"
+    - https://github.com/yschoe2015/helmchart/tree/master/stable/ingress-nginx.tgz
+    version: 2.12.1
+generated: "2020-08-31T16:39:53.3596392+09:00"
