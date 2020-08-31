@@ -1,22 +1,3 @@
 apiVersion: v1
-entries:
-  nginx-ingress:
-  - apiVersion: v1
-    appVersion: 1.8.1
-    created: "2020-08-31T15:30:21.6292814+09:00"
-    description: NGINX Ingress Controller
-    digest: 80213a59db4bdabd4ae409de0d1092cf0d33101346c7e20e3fc6a2c25bdae97c
-    icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.8.1/deployments/helm-chart/chart-icon.png
-    keywords:
-    - ingress
-    - nginx
-    maintainers:
-    - email: kubernetes@nginx.com
-      name: NGINX Kubernetes Team
-    name: nginx-ingress
-    sources:
-    - https://github.com/nginxinc/kubernetes-ingress/tree/v1.8.1/deployments/helm-chart
-    urls:
-    - nginx-ingress-0.6.1.tgz
-    version: 0.6.1
-generated: "2020-08-31T15:30:21.6262162+09:00"
+entries: {}
+generated: "2020-08-31T16:07:21.4334269+09:00"
