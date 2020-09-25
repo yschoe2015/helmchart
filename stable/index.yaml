@@ -3,7 +3,7 @@ entries:
   ingress-nginx:
   - apiVersion: v1
     appVersion: 0.34.1
-    created: "2020-09-24T15:31:58.8973483+09:00"
+    created: "2020-09-25T16:35:01.7173669+09:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 67304befe7756c90cb3b3029bbd85581b1fbefa6d9f7bd77cb681269929e9e22
@@ -24,7 +24,7 @@ entries:
   nginx-aws:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-24T15:31:58.8983483+09:00"
+    created: "2020-09-25T16:35:01.722434+09:00"
     description: A Helm chart for Kubernetes
     digest: c0d1f0bda5d51bb9622c710b93cedb65c66262bde28bf5969c86a5bb859f4ffa
     name: nginx-aws
@@ -35,7 +35,7 @@ entries:
   nginx-nn:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-24T15:31:58.8973483+09:00"
+    created: "2020-09-25T16:35:01.7184185+09:00"
     description: A Helm chart for Kubernetes
     digest: 8e4092d00f93bddc4692ca27d8988d5591e35f175a2987fbfc2f319ed6183c66
     name: nginx-nn
@@ -46,7 +46,7 @@ entries:
   nginx-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-24T15:31:58.8983483+09:00"
+    created: "2020-09-25T16:35:01.7204343+09:00"
     description: A Helm chart for Kubernetes
     digest: 7ffcb61de2920c553bead1489b547b6d7f800d0e2f07501cc5dfc6e3a7118219
     name: nginx-test
@@ -54,4 +54,15 @@ entries:
     urls:
     - https://yschoe2015.github.io/helmchart/stable/nginx-test.tgz
     version: 0.1.0
-generated: "2020-09-24T15:31:58.8913477+09:00"
+  nginx-ys:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-25T16:35:01.7214345+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 9209b741c1f78a0e383e1aad8fb8b93d3b7008e4184bbcae6afd288a943059f0
+    name: nginx-ys
+    type: application
+    urls:
+    - https://yschoe2015.github.io/helmchart/stable/nginx-ys.tgz
+    version: 0.1.0
+generated: "2020-09-25T16:35:01.7123675+09:00"
